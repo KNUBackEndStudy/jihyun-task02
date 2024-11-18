@@ -8,7 +8,6 @@ public class PostRequestDto {
     private String number;
     private String email;
 
-
     public String getId() {
         return id;
     }

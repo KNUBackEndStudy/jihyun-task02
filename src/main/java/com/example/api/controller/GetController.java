@@ -33,5 +33,6 @@ public class GetController {
     public String findByInfo(@PathVariable("id") String id, @PathVariable("name") String name, @PathVariable("number") String number, @PathVariable("email") String email){
         return "ID: " + id + ",\nname: " + name + ",\nnumber: " + number + ",\nemail: " + email;
     }
+
 }
 

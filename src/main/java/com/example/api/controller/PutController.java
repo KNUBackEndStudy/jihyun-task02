@@ -37,7 +37,6 @@ public class PutController {
                 .status(HttpStatus.ACCEPTED) // 202
                 .body (postRequestDto);
     }
-
     @PutMapping(value="member4")
     public PostRequestDto put4 (@RequestBody PostRequestDto postRequestDto){
         return postRequestDto;

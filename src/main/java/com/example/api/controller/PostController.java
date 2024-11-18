@@ -18,7 +18,6 @@ public class PostController {
         });
         return sb.toString();
     }
-
     @PostMapping("/post/info")
     public PostRequestDto post1(@RequestBody PostRequestDto postRequestDto){
         //객체를 직접 반환하여 JSON 형식으로 직렬화되도록 설정

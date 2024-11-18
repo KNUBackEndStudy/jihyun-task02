@@ -21,6 +21,5 @@ public class DeleteController {
         System.out.println(name);
         System.out.println(number);
         System.out.println(email);
-
     }
 }
